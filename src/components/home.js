@@ -82,7 +82,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 function Home(props) {
 
-    const qrCodeRef = useRef(null);
+    const qrCodeRef = useRef(null)
     const appName = 'QR Code Generator'
     const logo = require('./files/logo.webp')
     const report = require('./files/report.webp')
